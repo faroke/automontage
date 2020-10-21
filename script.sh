@@ -3,7 +3,7 @@ langage=fr
 period=week
 limit=15
 curl -H 'Accept: application/vnd.twitchtv.v5+json' \
-        -H 'Client-ID: m1kawn1oluxmhcbt9jgky4gwk8birf' \
+        -H 'Client-ID: ID' \
         -X GET "https://api.twitch.tv/kraken/clips/top?language=$langage&period=$period&trending=true&limit=$limit&game=League%20of%20Legends" > contain/weekly.json
 
 nbr=0
